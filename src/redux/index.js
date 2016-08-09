@@ -3,7 +3,7 @@ import {createStore, compose, combineReducers} from 'redux';
 import todo from './modules/todo';
 
 // combine reducer
-const reducer = combineReducers({todo});
+const reducer = combineReducers({ todo });
 
 export default createStore(
     reducer,
